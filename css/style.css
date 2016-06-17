@@ -68,6 +68,7 @@
 .buttons > .row button:last-child {
     background-color: darkorange;
     color: #fff;
+    box-shadow: 1px -1px 0 rgba(0,0,0,.4) inset, -1px 0 0 rgba(0,0,0,.4) inset;
 }
 
 .buttons > .row button:last-child:active {
@@ -79,4 +80,9 @@
 
 .buttons > .row > .nullButton {
     width: 50%;
+    border-bottom-left-radius: 5px;
+}
+
+.buttons > .row > .equalButton {
+    border-bottom-right-radius: 5px;
 }
