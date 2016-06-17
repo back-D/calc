@@ -35,17 +35,15 @@
     background-color: transparent;
     text-align: right;
     margin: 0;
-    padding: 0;
+    padding: 0 0.4em;
     color: #fff;
     width: 240px;
-    line-height: 3;
+    line-height: 2;
     border: none;
 
 }
 
-.buttons {
-
-}
+.buttons {}
 .buttons > .row {}
 .buttons > .row button {
     display: block;
@@ -54,15 +52,30 @@
     padding: 0;
     width: 25%;
     float: left;
-    background-color: #fff;
-    line-height: 3;
-    border: 1px solid #c0c0c0;
+    background-color: #eee;
+    line-height: 2;
+    border: none;
+    box-shadow: 1px -1px 0 rgba(0,0,0,.4) inset;
+    outline: none;
 }
 
 .buttons > .row button:active {
-    background-color: #eee;
-    border-color: #eee;
+    background-color: #ddd;
 }
+
+
+
+.buttons > .row button:last-child {
+    background-color: darkorange;
+    color: #fff;
+}
+
+.buttons > .row button:last-child:active {
+    background-color: chocolate;
+    color: #fff;
+}
+
+
 
 .buttons > .row > .nullButton {
     width: 50%;
